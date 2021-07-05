@@ -20,7 +20,7 @@
                 <TextBlock Text="{x:Static loc:Resources.About_Author}"/>
                 <LineBreak />
                 <TextBlock Text="{x:Static loc:Resources.About_Version}"/>
-                <TextBlock Text="{Binding Path=VersionExe, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Window}}"/>
+                <TextBlock Text="0.3.2.1"/>
                 <LineBreak />
                 <TextBlock Text="{x:Static loc:Resources.About_Website}"/>
                 <Hyperlink NavigateUri="https://github.com/szszss/TpacTool" RequestNavigate="Hyperlink_OnRequestNavigate">
