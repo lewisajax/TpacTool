@@ -19,7 +19,7 @@ namespace TpacTool.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -79,7 +79,7 @@ namespace TpacTool.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to     TpacTool is a software for viewing and unpacking the tpac files of Mount&amp;Blade II: Bannerlord..
+        ///   Looks up a localized string similar to TpacTool is a software for viewing and unpacking the tpac files of Mount&amp;Blade II: Bannerlord. Original version written by szszss, maintained by hunharibo..
         /// </summary>
         public static string About_Intro {
             get {

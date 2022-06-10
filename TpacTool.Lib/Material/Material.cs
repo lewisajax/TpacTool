@@ -102,6 +102,7 @@ namespace TpacTool.Lib
 			public float ParallaxAmount { get; set; }
 			public float ParallaxOffset { get; set; }
 			public float AmbientOcclusionCoef { get; set; }
+			public float ExposureCompensation { get; set; }
 
 			public ExtraMaterialSetting()
 			{
@@ -118,6 +119,7 @@ namespace TpacTool.Lib
 				AmbientOcclusionCoef = 1f;
 				SpecularCoef = 1f;
 				GlossCoef = 1f;
+				ExposureCompensation = 1f;
 			}
 
 			internal void Load(BinaryReader stream, uint subVersion = 1)
@@ -138,6 +140,7 @@ namespace TpacTool.Lib
 				if (subVersion >= 1)
 					ParallaxOffset = stream.ReadSingle();
 				AmbientOcclusionCoef = stream.ReadSingle();
+				ExposureCompensation = stream.ReadSingle();
 			}
 		}
 	}

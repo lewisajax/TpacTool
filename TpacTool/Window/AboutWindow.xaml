@@ -20,11 +20,11 @@
                 <TextBlock Text="{x:Static loc:Resources.About_Author}"/>
                 <LineBreak />
                 <TextBlock Text="{x:Static loc:Resources.About_Version}"/>
-                <TextBlock Text="0.3.2.2"/>
+                <TextBlock Text="0.3.3"/>
                 <LineBreak />
                 <TextBlock Text="{x:Static loc:Resources.About_Website}"/>
-                <Hyperlink NavigateUri="https://github.com/szszss/TpacTool" RequestNavigate="Hyperlink_OnRequestNavigate">
-                    https://github.com/szszss/TpacTool
+                <Hyperlink NavigateUri="https://github.com/hunharibo/TpacTool" RequestNavigate="Hyperlink_OnRequestNavigate">
+                    https://github.com/hunharibo/TpacTool
                 </Hyperlink>
             </TextBlock>
         </StackPanel>
